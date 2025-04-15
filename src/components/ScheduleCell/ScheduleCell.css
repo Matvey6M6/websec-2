@@ -1,0 +1,44 @@
+.schedule-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.empty-cell {
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #999;
+}
+
+.time-cell {
+  background-color: #ecf0f1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lesson-cell {
+  background-color: white;
+}
+
+.lesson-type {
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 5px;
+}
+
+.lesson-subject {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.lesson-place {
+  color: #3498db;
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+
+.lesson-teacher,
+.lesson-groups {
+  font-size: 0.8em;
+  color: #7f8c8d;
+}

@@ -1,0 +1,35 @@
+.schedule-table-container {
+  overflow-x: auto;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table th {
+  background-color: #34495e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.time-column {
+  width: 80px;
+  background-color: #2c3e50;
+}
+
+.day-header {
+  min-width: 150px;
+}
+
+.weekday {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
